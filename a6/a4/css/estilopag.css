@@ -1,0 +1,89 @@
+
+
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+html{background-color: #bb70a2;}
+h1{text-align: center;}
+
+        /* Cambiar el color de fondo de la barra de navegación */
+        nav.navbar {
+            background-color: #343a40; /* Un color oscuro para la barra de navegación */
+        }
+
+        
+        /* Cambiar el color del texto al pasar el cursor sobre un enlace */
+        nav.navbar a.nav-link:hover {
+            color: #bb70a2;; /* Color lila al pasar el cursor */
+        }
+
+        /* Cambiar el color del botón de búsqueda */
+        nav.navbar button.btn-outline-success {
+            color: #bb70a2;;
+            border-color: #f7f6f3; /* Color del borde del botón */
+        }
+
+        /* Cambiar el color de fondo del botón de búsqueda al hacer hover */
+        nav.navbar button.btn-outline-success:hover {
+            background-color: #c7adbe;; /* Cambiar el color de fondo del botón cuando se pasa el cursor */
+            border-color:#c7adbe;
+        }
+
+        /* Color de fondo del dropdown */
+        nav.navbar .dropdown-menu {
+            background-color: #bb70a2;
+        }
+
+        /* Color de los elementos del dropdown */
+        nav.navbar .dropdown-menu a {
+            color: white;
+        }
+
+        /* Cambiar el color de los elementos del dropdown al hacer hover */
+        nav.navbar .dropdown-menu a:hover {
+            background-color: #c7adbe;
+        }
+
+        /* Estilos generales para el header */
+        header {
+            background-color: #bb70a2; /* Fondo oscuro */
+            color: white; /* Texto blanco */
+            text-align: center;
+            padding: 10px 0;
+        }
+  
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #080808;
+}
